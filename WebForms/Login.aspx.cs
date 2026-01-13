@@ -7,11 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace WebForms
 {
-    public partial class About : Page
+    public partial class Login : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            Response.Redirect("Shop.aspx");
+
         }
     }
 }
